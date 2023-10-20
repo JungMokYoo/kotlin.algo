@@ -1,0 +1,9 @@
+class Solution {
+    fun solution(arr: IntArray): Double {
+        var answer = 0.0
+        for (num:Int in arr){
+            answer += num.toDouble()
+        }
+        return answer / arr.size
+    }
+}
